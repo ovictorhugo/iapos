@@ -17,7 +17,7 @@ function Researcher() {
       <div className=''>
         <Header />
       </div>
-      {userId && term !== undefined && type && <ResearcherPage id={userId} term={term} type={type} />}
+      <ResearcherPage id={userId || ''} term={term || ''} type={type || ''} />
       <Footer />
     </div>
   );

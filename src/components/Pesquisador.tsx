@@ -135,13 +135,13 @@ export function Pesquisador(props: PesquisadorProps) {
 
   //links
 
-  let linkTo;
+  let linkTo = `/researcher/${props.id}`;
 
-  if (botaoAreasClicado) {
+  if (botaoAreasClicado && valoresSelecionadosExport != "") {
     linkTo = `/researcher/${props.id}/${valoresSelecionadosExport}/areas`;
-  } else if (botaoTermosClicado) {
+  } else if (botaoTermosClicado && valoresSelecionadosExport != "") {
     linkTo = `/researcher/${props.id}/${valoresSelecionadosExport}/terms`;
-  } else if (botaoResumoClicado) {
+  } else if (botaoResumoClicado && valoresSelecionadosExport != "") {
     linkTo = `/researcher/${props.id}/${valoresSelecionadosExport}/abstract`;
   } else {
     // Define um valor padrão caso nenhuma variável corresponda

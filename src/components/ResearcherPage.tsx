@@ -317,6 +317,10 @@ export function ResearcherPage(props: Props) {
     urlPublicacoesPorPesquisador = `${urlGeral}bibliographic_production_researcher?terms=&researcher_id=${props.id}&type=ARTICLE&qualis=&qualis=${valoresSelecionados}&year=${value}`;
   }
 
+  if (props.term == undefined && props.type == "") {
+    urlPublicacoesPorPesquisador = `${urlGeral}bibliographic_production_researcher?terms=&researcher_id=${props.id}&type=ARTICLE&qualis=&qualis=${valoresSelecionados}&year=${value}`;
+  }
+
   
   const [isLoading, setIsLoading] = useState(false);
 
