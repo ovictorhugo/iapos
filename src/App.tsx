@@ -51,7 +51,7 @@ export const App = () => {
   const [botaoResumoClicado, setBotaoResumoClicado] = useState(false);
   const [botaoAreasClicado, setBotaoAreasClicado] = useState(false);
   
-  const [urlGeral, setUrlGeral] = useState('http://177.16.238.234:5001/');
+  const [urlGeral, setUrlGeral] = useState('http://172.25.0.83:5001/');
   const [pesquisadoresSelecionadosGroup, setPesquisadoresSelecionadosGroups] = useState('');
   const [user, setUser] = useState<User>({} as User)
   const [isOn, setIsOn] = useState(false);
