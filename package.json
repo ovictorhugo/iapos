@@ -15,7 +15,6 @@
     "cors-anywhere": "^0.4.4",
     "csv": "^6.3.0",
     "d3": "^7.8.5",
-    "d3-geo-voronoi": "^2.0.1",
     "express": "^4.18.2",
     "firebase": "^9.22.0",
     "highcharts": "^11.0.0",
