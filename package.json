@@ -34,7 +34,8 @@
     "react-responsive-image": "^5.0.0",
     "react-router-dom": "^6.9.0",
     "react-tabs": "^6.0.0",
-    "react-transition-group": "^4.4.5"
+    "react-transition-group": "^4.4.5",
+    "vite-plugin-mkcert": "^1.16.0"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.3",
