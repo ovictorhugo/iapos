@@ -26,6 +26,8 @@ let qualisColor = {
 export function CapLivro(props: Publicacao) {
 
 
+    let test
+
     const { isOn, setIsOn } = useContext(UserContext)
 
     return (
