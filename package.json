@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite --cert=/etc/ssl/certs/certificate.crt --key=/etc/ssl/private/private.key dev -- --host"
+
   },
   "dependencies": {
     "@apollo/client": "^3.7.14",
