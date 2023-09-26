@@ -4,8 +4,7 @@ import mkcert from 'vite-plugin-mkcert'
 
 export default defineConfig({
   server: { 
-    https: true,
-    host: 'http://iapos.senaicimatec.com.br'
+    https: true
   },
   plugins: [ mkcert() ]
 })
