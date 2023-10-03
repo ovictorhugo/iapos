@@ -26,7 +26,6 @@ import { StepTwo } from './pages/StepTwo';
 import { BaremaPage } from './pages/BaremaPage';
 import { HomePageSimcc } from './pages/HomePageSimcc';
 import { Magazine } from './pages/Magazine';
-import { Profnit } from './pages/Profnit';
 
 
 
@@ -114,7 +113,7 @@ export const App = () => {
             <Route path='/chat' element={<Chat/>}/>
             <Route path='/result' element={<Home/>}/>
 
-            <Route path='/profnit' element={<Profnit/>}/>
+
 
 
             <Route path='/barema' element={<BaremaPage/>}/>
