@@ -50,7 +50,7 @@ export const App = () => {
   const [botaoResumoClicado, setBotaoResumoClicado] = useState(false);
   const [botaoAreasClicado, setBotaoAreasClicado] = useState(false);
   
-  const [urlGeral, setUrlGeral] = useState('https://172.25.0.83:5001/');
+  const [urlGeral, setUrlGeral] = useState('https://iapos-api.senaicimatec.com.br');
   const [pesquisadoresSelecionadosGroup, setPesquisadoresSelecionadosGroups] = useState('');
   const [user, setUser] = useState<User>({} as User)
   const [isOn, setIsOn] = useState(false);
